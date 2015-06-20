@@ -1,10 +1,11 @@
 # REST API for Biodiversity/Conservation Search Data
 
-REST API interface for Conservation Hack ElasticSearch Server
+REST API interface for Conservation Hack Search Chrome Browser Plugin
+see: https://github.com/ConsHack/article-search-chrome-plugin
 
 ## Why?
 
-See: http://conservationhackathon.org/
+See: http://conservationhackathon.org
 
 ## What?
 
@@ -44,7 +45,8 @@ https://github.com/ConsHack/conshack-api/issues
 + [ ] Dashboard of all articles which have been reviewed & recent searches
 
 + [ ] Realtime interaction between all people using the plugin
-to enable (*google-docs style*) collaboration and eliminate duplicated effort!
+to enable (*google-docs style*) collaboration and eliminate duplicated effort! requires a bit of: https://github.com/nelsonic/learn-rethinkdb
+
 
 
 ### Run Server Locally
