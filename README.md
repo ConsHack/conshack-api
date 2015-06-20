@@ -17,7 +17,7 @@ If you are *new* to either of these we have ***beginner tutorials*** to get you 
 + ElasticSearch: https://github.com/docdis/learn-elasticsearch
    + esta: https://github.com/dwyl/esta (*ultra-simple ElasticSearch node.js driver*)
 
-If you have any ideas, suggestions, feature requests or spot an issue/bug that needs to be fixed,
+If you have any ***ideas***, suggestions, feature requests or spot an issue/bug that needs to be fixed,
 ***please submit an issue***:
 https://github.com/ConsHack/conshack-api/issues
 
@@ -41,6 +41,10 @@ https://github.com/ConsHack/conshack-api/issues
 
 + [ ] Auto-complete Search Article Titles  
 
++ [ ] Dashboard of all articles which have been reviewed & recent searches
+
++ [ ] Realtime interaction between all people using the plugin
+to enable (*google-docs style*) collaboration and eliminate duplicated effort!
 
 
 ### Run Server Locally
