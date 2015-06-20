@@ -4,7 +4,9 @@
   "description": "API for Conservation/Biodiversity Hackathon for storing data from Chrome plugin'",
   "main": "server.js",
   "scripts": {
-    "test": "qunit"
+    "test": "qunit",
+    "dev" : "npm i && ./node_modules/.bin/nodemon server.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -16,7 +18,16 @@
     "HEROKU",
     "ElasticSearch"
   ],
-  "author": "nelsonic <contact.nelsonic@gmail.com> (https://github.com/nelsonic)",
+  "contributors": [{
+    "name": "nelsonic",
+    "email": "contact.nelsonic@gmail.com",
+    "url": "https://github.com/nelsonic"
+  }, {
+    "name": "yournamehere!",
+    "email": "yourname@gmail.com",
+    "url": "https://github.com/yourname"
+  }
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ConsHack/conshack-api/issues"
@@ -26,5 +37,8 @@
     "esta": "^4.0.4",
     "hapi": "^8.6.1",
     "joi": "^6.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.3.7"
   }
 }
