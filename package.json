@@ -1,0 +1,30 @@
+{
+  "name": "conshak-api",
+  "version": "1.0.0",
+  "description": "API for Conservation/Biodiversity Hackathon for storing data from Chrome plugin'",
+  "main": "server.js",
+  "scripts": {
+    "test": "qunit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ConsHack/conshak-api.git"
+  },
+  "keywords": [
+    "REST",
+    "API",
+    "HEROKU",
+    "ElasticSearch"
+  ],
+  "author": "nelsonic <contact.nelsonic@gmail.com> (https://github.com/nelsonic)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ConsHack/conshack-api/issues"
+  },
+  "homepage": "https://github.com/ConsHack/conshack-api",
+  "dependencies": {
+    "esta": "^4.0.4",
+    "hapi": "^8.6.1",
+    "joi": "^6.4.3"
+  }
+}
